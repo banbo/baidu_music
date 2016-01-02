@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>歌手列表</title>
+</head>
+<body>
+<foreach name="artistList" item="list" key="letter">
+    <div>
+	    {$letter}<br />
+	    <div>
+		    <foreach name="list" item="vo">
+		        <a href="index.php?m=Album&a=index&artist_id={$vo['id']}">{$vo['name']}</a>
+		    </foreach>
+	    </div>
+    </div>
+</foreach>
+</body>
+</html>

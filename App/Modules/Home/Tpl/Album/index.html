@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<foreach name="albumList" item="album">
+    <a href="index.php?m=Album&a=info&id={$album['album_id']}">{$album['name']}</a><br />
+</foreach>
+</body>
+</html>
