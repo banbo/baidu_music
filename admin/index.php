@@ -1,7 +1,7 @@
 <?php
 header("Content-type:text/html; charset=UTF-8");
 
-error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
+error_reporting(E_ERROR);
 ini_set("display_errors", 1);
 set_time_limit(0);
 

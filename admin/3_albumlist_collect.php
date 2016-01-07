@@ -12,13 +12,15 @@ if(!defined('APP_PATH')) {
 require_once APP_PATH . 'util/db.php';
 require_once APP_PATH . 'util/Collect.class.php';
 
+$collect_size = 100; // 采集数量
+
 $con = get_con();
 
 $collect = new Collect();
 
 // manual_collect表示手动再次采集该歌手的专辑，比如想要更新歌手的新专辑就可以设置该字段为1
 // 如果想重新采集某歌手的专辑设置manual_collect为1并设置shield_collect为0
-$result = mysql_query("select id from " . DBPREFIX . "artist where (manual_collect=1 or id not in (select distinct artist_id from " . DBPREFIX . "album)) and shield_collect=0 order by manual_collect desc limit 100", $con);
+$result = mysql_query("select id from {DBPREFIX}artist where (manual_collect=1 or id not in (select distinct artist_id from {DBPREFIX}album)) and shield_collect=0 order by manual_collect desc limit {$collect_size}", $con);
 $artistIdArr = array();
 while(!!($row = mysql_fetch_array($result))) {
 

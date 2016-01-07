@@ -129,7 +129,7 @@ class Collect {
             }
 
             // 歌手姓名
-            preg_match('/<h2 class="singer-name">([^<]+)<\/h2>/', $pageData, $artistNameMatche);
+            preg_match('/<h2 class="singer-name" title="[^"]+">([^<]+)<\/h2>/', $pageData, $artistNameMatche);
             // var_dump($artistNameMatche);die;
 
             // 删除空格，不能在取得歌手姓名前删除空格，因为歌手姓名中间可能包含空格，如欧美歌手

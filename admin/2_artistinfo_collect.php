@@ -12,11 +12,13 @@ if(!defined('APP_PATH')) {
 require_once APP_PATH . 'util/db.php';
 require_once APP_PATH . 'util/Collect.class.php';
 
+$collect_size = 500;  // 采集数量
+
 $con = get_con();
 
 $collect = new Collect();
 
-$result = mysql_query("select id from " . DBPREFIX . "artist where name='' or name is null limit 500", $con);
+$result = mysql_query("select id from {DBPREFIX}artist where name='' or name is null limit {$collect_size}", $con);
 $artistIdArr = array();
 while(!!($row = mysql_fetch_array($result))) {
 

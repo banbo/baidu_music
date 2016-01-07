@@ -1,7 +1,7 @@
 <?php
 define('DBHOST', 'localhost');
 define('DBUSER', 'root');
-define('DBPASS', '');
+define('DBPASS', '12345678');
 define('DBNAME', 'yuefuling');
 define('DBPREFIX', 'yue_');
 define('DBCHARSET', 'utf8');
