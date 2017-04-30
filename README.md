@@ -15,6 +15,8 @@
 
 3. 展示页面：配置域名到根目录下
 
-  3.1. 配置域名：show.music.com  D:/wwwroot/bdmusiccollect/
-  3.2. 配置数据库：/bdmusiccollect/App/Conf/db.php
-  3.3. 浏览器查看效果：http://show.music.com
+      3.1. 配置域名：show.music.com  D:/wwwroot/bdmusiccollect/
+      
+      3.2. 配置数据库：/bdmusiccollect/App/Conf/db.php
+      
+      3.3. 浏览器查看效果：http://show.music.com
