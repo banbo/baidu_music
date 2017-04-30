@@ -6,11 +6,9 @@
 
 2. 采集脚本：配置域名到admin目录下：
 
-    2.1. 修改host文件：collect.music.com  D:/wwwroot/baidu_music/admin/
-    
-    2.2. 配置数据库：/baidu_music/admin/config/config.php
-    
-    2.3. 开始采集： http://collect.music.com 按1、2、3、4的顺序进行采集
+    2.1.修改host文件：collect.music.com  D:/wwwroot/baidu_music/admin/
+    2.2.配置数据库：/baidu_music/admin/config/config.php
+    2.3.开始采集： http://collect.music.com 按1、2、3、4的顺序进行采集
 
 
 3. 展示页面：配置域名到根目录下
