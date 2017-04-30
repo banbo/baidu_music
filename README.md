@@ -5,12 +5,12 @@
 
 
 2. 采集脚本：配置域名到admin目录下：
-2.1. 配置域名：collect.music.com  D:/wwwroot/bdmusiccollect/admin/
-2.2. 配置数据库：/bdmusiccollect/admin/config/config.php
-2.3. 开始采集： http://collect.music.com 按1、2、3、4的顺序进行采集
+  2.1. 配置域名：collect.music.com  D:/wwwroot/bdmusiccollect/admin/
+  2.2. 配置数据库：/bdmusiccollect/admin/config/config.php
+  2.3. 开始采集： http://collect.music.com 按1、2、3、4的顺序进行采集
 
 
 3. 展示页面：配置域名到根目录下
-3.1. 配置域名：show.music.com  D:/wwwroot/bdmusiccollect/
-3.2. 配置数据库：/bdmusiccollect/App/Conf/db.php
-3.3. 浏览器查看效果：http://show.music.com
+  3.1. 配置域名：show.music.com  D:/wwwroot/bdmusiccollect/
+  3.2. 配置数据库：/bdmusiccollect/App/Conf/db.php
+  3.3. 浏览器查看效果：http://show.music.com
