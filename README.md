@@ -7,7 +7,9 @@
 2. 采集脚本：配置域名到admin目录下：
 
     2.1. 配置域名：collect.music.com  D:/wwwroot/bdmusiccollect/admin/
+    
     2.2. 配置数据库：/bdmusiccollect/admin/config/config.php
+    
     2.3. 开始采集： http://collect.music.com 按1、2、3、4的顺序进行采集
 
 
